@@ -1,81 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chobu Kangkolo</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
-
-    <nav class="header">
-
-        <h2 class="logo">Chobu Kangkolo</h2>
-
-
-        <ul class="menu">
-            <a href="index.html">About Me</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-
+  <body>
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">myLinks</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#experience" class="nav-link">Experience</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
         </ul>
+      </nav>
 
-    </nav>
-    
+      <div class="landing-text">
+        <h1>Chobu Kangkolo</h1>
+        <h6>Web Developer</h6>
+      </div>
+    </header>
 
-   
-   
-    <div class="container">
-
-        <div class="row">
-            <h4 class="aboutme"> About Me</h4>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="Assets/Images/IMG_8053.JPG" alt="father" />
         </div>
-
-        <hr class="two">
-
-        <div class="row">
-            <div class="col-md-4">
-                <img src="Example Images\Images\IMG_7159.jpg" alt="">
-            </div>
-
-            <div class="col-md-8">
-                <p> Hi, My name is Chobu Kangkolo and I was born in Cameroon, West Africa. I have lived in the United
-                    States for about 20 years and i've spent the majority of that time here in Kansas City, Missouri. I
-                    have also lived in Texas, Maryland and Georgia but of all those places, I prefer Missouri.
-
-                </p>
-            </div>
-
-            <div class="row">
-               
-                <div class="col-md-12">
-                <p> I am experiencing the joys of being a father to my 6 month old daughter Eliora and when i'm not with
-                    her I am either playing video games, drawing or working out. I am an avid an sports fan so much so
-                    that I fall asleep to Sportcenter. When I have the time, I love taking pictures around the city and
-                    binge watching documentaries on netflix. </p></div>
-            </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            Hi, My name is Chobu Kangkolo and I was born in Cameroon, West
+            Africa. I have lived in the United States for about 20 years and
+            i've spent the majority of that time here in Kansas City, Missouri.
+            I have also lived in Texas, Maryland and Georgia but of all those
+            places, I prefer Missouri.I am experiencing the joys of being a
+            father to my 6 month old daughter Eliora and when i'm not with her I
+            am either playing video games, drawing or working out. I am an avid
+            an sports fan so much so that I fall asleep to Sportcenter. When I
+            have the time, I love taking pictures around the city and binge
+            watching documentaries on netflix.From time to time, I challenge
+            myself to master new ideas and to learn more about my different
+            interests. One of those interests which could possibly reap great
+            rewards if mastered are computers. I am currently taking a break
+            from my undergrad program at NWMSU to learn coding skills which
+            could hopefully make me desirable in the growing tech world. You can
+            follow me and my
+            <a href="https://github.com/ckangkolo16" target="_blank"
+              >progress</a
+            >
+            here.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="icon-link">
+                  <i class="fab fa-dribbble-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <div class="row">
-            <p>From time to time, I challenge myself to master new ideas and to learn more about my different interests.
-                One of those interests which could possibly reap great rewards if mastered are computers. I am currently
-                taking a break from my undergrad program at NWMSU to learn coding skills which could hopefully make me
-                desirable in the growing tech world. You can follow me and my <a href="https://github.com/ckangkolo16" target="_blank">progress</a> here.  </p>
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Services</h1>
+          <h6>Follow my pages</h6>
         </div>
+        <div class="my-skills">
+          <div class="skill" data-aos="fade-in" data-aos-delay="300">
+            <div class="icon-container">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h1><a href="https://github.com/ckangkolo16"></a>My Github</h1>
+            <p>
+              <a href="https://github.com/ckangkolo16" target="_blank">
+                Follow my github to keep up with me and check out my previous
+                projects.</a
+              >
+            </p>
+          </div>
+          <div class="skill" data-aos="fade-in" data-aos-delay="600">
+            <div class="icon-container">
+              <i class="fas fa-code"></i>
+            </div>
+            <h1>My Heroku</h1>
+            <p>
+              <a href="https://ckangkolo-burger.herokuapp.com/" target="_blank"
+                >Follow my heroku for more projects
+              </a>
+            </p>
+          </div>
+          <div class="skill" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-container">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <h1>My LinkedIn</h1>
+            <p>
+              <a
+                href="https://www.linkedin.com/in/chobu-nkolo-kangkolo-08608b1a4"
+                target="_blank"
+              >
+                Join my network on LinkedIn
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>A look at my portfolio so far</h6>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
+            <img src="Assets/Images/weekendwarrior.png" alt="weekendwarrior" />
+          </div>
+          <div class="portfolio-description has-margin-right">
+            <h6>Using Passport & User Authentication</h6>
+            <h1>Week Warrior App</h1>
+            <p>
+              The Weekend Warrior App is the most recent project developed by my
+              classmates and I. It is a blog based application which lets you
+              detail your weekend experiences(events) once you log in. Some
+              unique add-ons to this application include a map which logs the
+              different locations of your events.
+            </p>
+            <a href="" class="cta">View Details</a>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-description"
+            data-aos="fade-left"
+            data-aos-delay="600"
+          >
+            <h6>Web Design</h6>
+            <h1>Refrigerator Companion</h1>
+            <p>
+              Refrigerator Companion is the first project I worked on with my
+              classmates. The app was created with people like me in mind who
+              lack in the cooking department. It is as easy to use as typing the
+              food or meal you crave and the app provides you with different
+              recipes and instructions on how to prepare your meal.
+            </p>
+            <a href="" class="cta">View Details</a>
+          </div>
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-left"
+            data-aos-delay="1200"
+          >
+            <img
+              src="Assets/Images/refrigerator companion.jpg"
+              alt="refrigerator app"
+            />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="1500"
+          >
+            <img src="Assets/Images/weatherapp.jpg" alt="Weather App" />
+          </div>
+          <div
+            class="portfolio-description"
+            data-aos="fade-left"
+            data-aos-delay="1800"
+          >
+            <h6>Using APIs</h6>
+            <h1>Weather Dashboard</h1>
+            <p>
+              The weather app is one of the projects I was instructed to create
+              with a list of guidelines. To use the weather app you simply
+              search any city in the world and the app returns the city's
+              current weather condition along with a 5-day forecast of the city.
+            </p>
+            <a href="" class="cta">View Details</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="experience" id="experience">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experience</h1>
+          <h6>Past and current jobs</h6>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="2018 - Present">
+              <h1>Preferred Family Healthcare</h1>
+              <h2>Kansas City, MO</h2>
+              <br />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+                error vitae architecto veritatis eum. Inventore delectus fuga
+                modi impedit distinctio dicta tenetur exercitationem vero sint
+                ratione. Adipisci quae fuga perspiciatis!
+              </p>
+            </li>
+            <li class="date" data-date="2018 - 2020">
+              <h1>Manager - Jana Home Care</h1>
+              <h2>Lee's Summit, MO</h2>
+              <br />
+              <p>
+                Duties include:
+                <br />
 
+                - Managing and directing a team of staff to ensure appropriate
+                home care services
+                <br />
+                - Coordinating and Processing appointments and doctors visits
+                <br />
+                - Communicating between caregivers, resident and family members
+                <br />
+                - Meeting with nursing & therapy staff to provide guidance and
+                information related to behaviors and issues
+                <br />
+                - Recommending changes in current policies to improve quality of
+                client and effectiveness of services
+                <br />
+                - Creating and managing staff schedules
+                <br />
+                - Ordering and administering medications
+                <br />
+                - Conducting safety drills
+                <br />
+                - Managing and balancing client budgets
+                <br />
+                - Shopping for client
+              </p>
+            </li>
+            <li class="date" data-date="2016 - 2018">
+              <h1>Order Processor - Hallmark</h1>
+              <h2>Liberty, MO</h2>
+              <br />
+              <p>
+                Duties included:
+                <br />
+                - Filling client orders (based on computerized documents) with
+                the use of fill bins or other equipment
+                <br />
+                - Utilizing computerized systems to ensure that client orders
+                are processed accordingly
+                <br />
+                - Selecting and packing orders in cartons
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    </div>
-    </div>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Lets work together</h6>
+        </div>
+        <form action="" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name..."
+            required
+          />
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+            required
+          />
 
-    <div class="footer"> &copy; Copyright
+          <label for="subject">Subject:</label>
+          <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
 
-    </div>
-</body>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy; 2020 Chobu Kangkolo</p>
+    </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
